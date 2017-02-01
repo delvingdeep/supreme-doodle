@@ -35,8 +35,8 @@ if __name__ == "__main__":
 			cord.goal.target_pose.header.seq=seq
 			cord.goal.target_pose.header.stamp=rospy.Time.now()
 			cord.goal.target_pose.header.frame_id="map"
-			x=random.uniform(-10,10)
-			y=random.uniform(-10,10)
+			x=random.uniform(-15,15)
+			y=random.uniform(-15,15)
 			cord.goal.target_pose.pose.position.x=x
 			cord.goal.target_pose.pose.position.y=y
 			cord.goal.target_pose.pose.orientation.w=1.0
