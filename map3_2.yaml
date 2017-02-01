@@ -1,0 +1,7 @@
+image: /home/robotics1/EE5900_Intro_to_Robotics/supreme-doodle/map3_2.pgm
+resolution: 0.020000
+origin: [-10.000000, -10.000000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

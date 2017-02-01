@@ -112,7 +112,9 @@
 
      <remap from="scan" to="$(arg scan_topic)"/>
    </node>
-<node pkg="lab3_mapping" name="jackal_random" type="test_random.py"/>
+<arg name="rviz_config" value="gmapping" />
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find jackal_viz)/rviz/$(arg rviz_config).rviz" />
+<node pkg="lab3_mapping" name="jackal_random" type="test_random.py" output="screen" launch-prefix="xterm -e" />
 
 
 </launch>
