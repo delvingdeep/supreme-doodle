@@ -112,7 +112,6 @@
 
      <remap from="scan" to="$(arg scan_topic)"/>
    </node>
-<node pkg="lab3_mapping" name="jackal_random" type="test_random.py"/>
 
 
 </launch>
