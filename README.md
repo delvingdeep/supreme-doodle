@@ -27,3 +27,10 @@ Project 3 is **Perception : Map Buliding**
 *Surya*
 
 *Deep (Me)*
+
+**Instructions to run**
+Copy lab3_mapping package folder into local workspace. Then run,
+```
+source devel/setup.bash
+roslaunch lab3_mapping jackal_mapping.launch
+```
